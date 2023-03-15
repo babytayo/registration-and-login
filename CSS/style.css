@@ -77,3 +77,84 @@ p {
 .wrapper-bottom-btn {
   margin-top: 2rem;
 }
+
+/* ***************Signup-page************ */
+
+.signup-page {
+  padding: 0 1.3rem;
+}
+
+.signup_page_arrow_back {
+  padding: 1.2rem 0 1.2rem;
+}
+
+.signup_page_arrow_back img {
+  width: 10px;
+}
+
+.signup_page_inputs {
+  padding: 2.5rem 0;
+}
+
+.signup_page_inputs input {
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+  padding: 0 1rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.signup_page_inputs input::placeholder {
+  color: #949494;
+}
+
+.email {
+  margin-bottom: 1rem;
+}
+
+.signup_page_inputs p {
+  padding: 10px;
+}
+
+.singup_page_button p {
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.singup_page_button span {
+  text-decoration: underline;
+}
+
+.singup_page_button button {
+  margin-top: 1rem;
+  border-radius: 30px;
+  font-size: 1rem;
+}
+
+.or {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.signup_page_google .google_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border-radius: 30px;
+  background: transparent;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.signup_page_google img {
+  width: 20px;
+  margin-right: 0.5rem;
+}
